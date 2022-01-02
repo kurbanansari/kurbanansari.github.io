@@ -1,0 +1,220 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+}
+a {
+  color: #004274;
+  text-decoration: none;
+}
+nav {
+  color: #004274;
+}
+.bold-font {
+  font-weight: 500;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+.carousel-item-1 {
+  background-image: url("https://www.kausaproperty.com/wp-content/uploads/2019/07/sukoon-aerial.jpg");
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.carousel-item .card {
+  position: absolute;
+  width: 500px;
+  top: 50%;
+  left: 20%;
+  -webkit-transform: translate(-20%, -50%);
+  -ms-transform: translate(-20%, -50%);
+  transform: translate(-20%, -50%);
+  padding: 25px 30px;
+  border: none;
+}
+.details {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #00aeef;
+  color: #fff;
+  padding: 4px 10px;
+  border: 1px solid #00aeef;
+  border-radius: 4px 0px;
+}
+.fetured {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  background-color: #77c720;
+  color: #fff;
+  padding: 2px 6px;
+  border: 1px solid #77c720;
+  border-radius: 4px 4px 0px 4px;
+}
+
+.font-small {
+  font-size: 13px;
+}
+.font-x-small {
+  font-size: 10px;
+}
+.font-12-small {
+  font-size: 12px;
+}
+
+.property-bg {
+  background-color: #f5f5f5;
+}
+
+.p-fetured {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #77c720;
+  color: #fff;
+  padding: 2px 6px;
+  border: 1px solid #77c720;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.p-sale {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.p-icons {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 4px 4px 4px 4px;
+  z-index: 1;
+}
+
+.p-price {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: transparent;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 4px 4px 4px 4px;
+  z-index: 1;
+}
+
+.p-image:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.75) 100%
+  );
+  opacity: 1;
+}
+.p-image:hover:after {
+  opacity: 0;
+}
+
+.p-details {
+  background-color: #00aeef;
+  color: #fff;
+  padding: 4px 10px;
+  border: 1px solid #00aeef;
+  border-radius: 4px;
+}
+
+.image-property {
+  position: relative;
+  max-height: 300px;
+  min-height: 300px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: unset !important;
+  transition: unset !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: unset !important;
+  background-color: #00aeef !important;
+  border-radius: 4px;
+}
+
+.footer-wrap {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
+  text-align: left;
+  text-transform: none;
+}
+.footer-top-wrap {
+  background-color: #004274;
+  padding: 100px 0 70px;
+}
+
+.footer-bottom-wrap {
+  background-color: #00335a;
+  padding: 30px 0;
+}
+
+.footer-top-wrap,
+.footer-top-wrap a,
+.footer-bottom-wrap,
+.footer-bottom-wrap a,
+.footer-top-wrap
+  .property-item-widget
+  .right-property-item-widget-wrap
+  .item-amenities,
+.footer-top-wrap
+  .property-item-widget
+  .right-property-item-widget-wrap
+  .item-price-wrap,
+.footer-top-wrap .blog-post-content-widget h4 a,
+.footer-top-wrap .blog-post-content-widget,
+.footer-top-wrap .form-tools .control,
+.footer-top-wrap .slick-dots li.slick-active button:before,
+.footer-top-wrap .slick-dots li button::before,
+.footer-top-wrap
+  .widget
+  ul:not(.item-amenities):not(.item-price-wrap):not(.contact-list):not(.dropdown-menu):not(.nav-tabs)
+  li
+  span {
+  color: #ffffff;
+}
+
+.footer-top-wrap a:hover,
+.footer-bottom-wrap a:hover,
+.footer-top-wrap .blog-post-content-widget h4 a:hover {
+  color: rgba(0, 174, 239, 1);
+}
+.houzez-osm-cluster {
+  background-image: url(http://www.kausaproperty.com/wp-content/themes/houzez/images/map/cluster-icon.png);
+  text-align: center;
+  color: #fff;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+}
